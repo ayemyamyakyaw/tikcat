@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
 
   Future<void> fetchVideos() async {
     try {
-      final response = await http.get(Uri.parse('http://192.168.1.5:8000/api/videos'));
+      final response = await http.get(Uri.parse('https://raw.githubusercontent.com/ayemyamyakyaw/jsonx/main/post.json'));
 
       if (response.statusCode == 200) {
         final List<dynamic> data = json.decode(response.body);
