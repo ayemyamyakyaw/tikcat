@@ -163,7 +163,7 @@ class _HomePageState extends State<HomePage> {
           ),
         ],
       )
-          : Center(child: Text("Loading video, please wait...")),
+          : Center(child: Text("Loading ကြာနေရင် screen ကိုနှိပ်လိုက်ပါ")),
     );
   }
 }
